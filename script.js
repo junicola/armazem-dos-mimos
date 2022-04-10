@@ -13,7 +13,7 @@ window.addEventListener('scroll', function(){
     } else {
         hideElement(wpp) 
     }
-});
+}, {passive: true});
 
 function showElement(element) {
     element.classList.add("show");
